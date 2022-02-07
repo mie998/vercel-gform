@@ -1,4 +1,5 @@
 FROM node:alpine
+RUN apk update && apk add git
 
 ENV PORT 3000
 WORKDIR /work
