@@ -1,0 +1,17 @@
+{
+  "name": "vercel-devcontainer",
+  "build": { "dockerfile": "Dockerfile", "context": ".." },
+  "extensions": [
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "mikestead.dotenv",
+    "naumovs.color-highlight",
+    "stylelint.vscode-stylelint",
+    "oderwat.indent-rainbow",
+    "dbaeumer.vscode-eslint",
+    "2gua.rainbow-brackets",
+    "stylelint.vscode-stylelint",
+    "golang.go"
+  ],
+  "forwardPorts": [3000]
+}
